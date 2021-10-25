@@ -37,7 +37,7 @@ namespace Weapon
             {
                 {WeaponType.Single, new PlayerWeapon(new QueueWeaponFactory(1, 0, 0.5f, 0, 1, 12), GunBody[0]) },
                 {WeaponType.Queue, new PlayerWeapon(new QueueWeaponFactory(4, 0.07f, 0.8f, 5, 1, 14),GunBody[1]) },
-                {WeaponType.ShotGun, new PlayerWeapon(new ShotGunWeaponFactory(6, 10, 1, 0, 1, 4, 1, 16),GunBody[2]) },
+                {WeaponType.ShotGun, new PlayerWeapon(new ShotGunWeaponFactory(6, 10, 1, 0, 1, 20, 1, 16),GunBody[2]) },
             };
             mask = LayerMask.GetMask("Enemy");
         }
